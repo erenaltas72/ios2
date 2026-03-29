@@ -18,3 +18,22 @@ Size verdiğim proje ön raporundaki 1. hafta maddesini bitirdim. Bu hafta tamam
 Ön raporumdaki planıma sadık kalarak, kullanıcı arayüzü tasarımlarına ve emülatör üzerinde testlere 2. hafta başlayacağım. Yaptığım bu kurulumların `package.json` ve klasör yapısı üzerindeki kanıtını aşağıdaki videomda anlattım. 
 
 **Haftalık Video Linkim:** [[21290571-ZiyaErenAltaş-IOS2 Dersi-23032026-V1](https://drive.google.com/drive/folders/1KwROinH3mUwPuiAGjCszuYGekQGyHQ_w?usp=sharing)]
+
+---
+
+## 2. Hafta (30 Mart 2026)
+
+**Yapılanlar:** Kullanıcı arayüzü (UI/UX) tasarımı; [cite_start]Giriş, Kayıt ve Profil ekranlarının kodlanması. [cite: 32]
+
+Hocam merhaba, proje ön raporumdaki 2. hafta hedeflerimi başarıyla tamamladım. [cite_start]Bu hafta uygulamanın ön yüz (Frontend) inşasına odaklandım ve Figma tasarımımda belirttiğim "Hesap Oluşturun" (Kayıt) arayüzünü React Native kullanarak geliştirdim. [cite: 32, 42, 50]
+
+**Bu Hafta Gerçekleştirilen Teknik Adımlar:**
+* **UI/UX Kodlaması:** Figma tasarımına milimetrik olarak sadık kalarak, sayfa mizanpajını Flexbox mimarisiyle farklı ekran boyutlarına duyarlı (responsive) hale getirdim.
+* **Asset Yönetimi:** Proje dizininde `src/assets/images` klasör yapısını kurarak, kendi tasarladığım uygulama logosunu projeye yerel (native) olarak entegre ettim.
+* **Kullanıcı Deneyimi (UX) Optimizasyonları:** E-mail giriş alanında (TextInput), kullanıcıların klavyesinde otomatik olarak "@" ve ".com" tuşlarının çıkmasını sağlayan `keyboardType="email-address"` gibi native klavye optimizasyonlarını uyguladım.
+* **Navigasyon Entegrasyonu:** Geçen hafta kurduğum React Navigation altyapısını `App.js` dosyası üzerinde yapılandırarak ilk sayfa yönlendirme katmanımı (`Stack.Navigator`) aktif hale getirdim.
+* **Emülatör Testleri:** Son olarak Android Studio üzerinden x86_64 mimarili ve API 33 (Tiramisu) tabanlı bir sanal cihaz kurarak projemi başarıyla derledim ve arayüzümün sorunsuz çalıştığını canlı olarak test ettim.
+
+[cite_start]Planıma uygun olarak, 3. hafta hedeflerim doğrultusunda Backend entegrasyonu (Firebase/Node.js) ve güvenli kullanıcı kimlik doğrulama sisteminin inşasına başlayacağım. [cite: 33] Tasarımımın kodlanmış halini ve emülatör üzerindeki canlı çalışma performansını aşağıdaki videomda anlattım.
+
+**Haftalık Video Linkim:** [[21290571-ZiyaErenAltaş-IOS2 Dersi-23032026-V2](https://drive.google.com/drive/folders/1KwROinH3mUwPuiAGjCszuYGekQGyHQ_w?usp=sharing)]
